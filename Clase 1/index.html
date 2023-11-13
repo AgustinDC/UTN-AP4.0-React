@@ -18,11 +18,13 @@
         <label for="">Telefono: </label>
         <input type="text">
         <label for="">Tipo: </label>
-        <select name="" id="">
-            <option value="">Basico</option>
-            <option value="">Intermedio</option>
-            <option value="">Premium</option>
-        </select>
+        <select id="select" onchange="mostrar()">
+            <option value="basico">Basico</option>
+            <option value="inter">Intermedio</option>
+            <option value="full">Premium</option>
+        </select>        
     </form>
+    <p id="resultado">Basico $500</p>
+    <script src="script.js"></script>
 </body>
 </html>
