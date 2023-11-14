@@ -1,3 +1,14 @@
-body {
-    
+form label, input {
+    display: block;
+    margin: 5px;
+}
+
+p {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+}
+
+p:hover{
+    zoom: 1.5;
 }
